@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: snowflake_person
+    description: 'snowflake source'
+    database: DEMO_DB
+    schema: PUBLIC
+    tables:
+      - name: ORACLE_PERSON
